@@ -1,3 +1,4 @@
 (ns first-clojure.core
- (javax.swing.JOptionPane/showMessageDialog nil (+ 1 2 3))
-)
+	(:gen-class))
+(defn -main [& args] 
+	(println "Hello, World!"))
